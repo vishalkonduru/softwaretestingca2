@@ -1,0 +1,6 @@
+TC ID,Description,Input Data,Expected Result,Sample Status
+TC001,Login with valid data,valid username and password,Login successful,Pass
+TC002,Wrong username,wrong username and valid password,Show error,Pass
+TC003,Wrong password,valid username and wrong password,Show error,Pass
+TC004,Empty fields,blank username and password,Show validation error,Not Run
+TC005,SQL injection attempt,' OR '1'='1,Reject login attempt,Fail
